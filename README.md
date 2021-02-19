@@ -1,8 +1,6 @@
 
 # Discord Nitro Generator + Checker
-<p align="center">
-<img src="example.png" />
-</p>
+
 
 ## Usage
 Download the project files and run `main.py`  
