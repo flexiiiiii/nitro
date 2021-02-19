@@ -12,22 +12,17 @@ class NitroGen: # Initialise the class
     def main(self): # The main function contains the most important code
         os.system('cls' if os.name == 'nt' else 'clear') # Clear the screen
 
-        print(""" █████╗ ███╗   ██╗ ██████╗ ███╗   ██╗██╗██╗  ██╗
-██╔══██╗████╗  ██║██╔═══██╗████╗  ██║██║╚██╗██╔╝
-███████║██╔██╗ ██║██║   ██║██╔██╗ ██║██║ ╚███╔╝
-██╔══██║██║╚██╗██║██║   ██║██║╚██╗██║██║ ██╔██╗
-██║  ██║██║ ╚████║╚██████╔╝██║ ╚████║██║██╔╝ ██╗
-╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
+        print(""" 
                                                         """) # Print the title card
         time.sleep(2) # Wait a few seconds
-        self.slowType("Made by: Drillenissen#4268 && Benz#4947", .02) # Print who developed the code
+        self.slowType("Kod został trochę skopiowany ale huj", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
-        self.slowType("\nInput How Many Codes to Generate and Check: ", .02, newLine = False) # Print the first question
+        self.slowType("\nWpisz ile chcesz wygenerować kodów: ", .02, newLine = False) # Print the first question
 
         num = int(input('')) # Ask the user for the amount of codes
 
         # Get the webhook url, if the user does not wish to use a webhook the message will be an empty string
-        self.slowType("\nDo you wish to use a discord webhook? \nIf so type it here or press enter to ignore: ", .02, newLine = False)
+        self.slowType("\nCzy chcesz dać webhook(jeśli go dasz to kiedy wygeneruje sie nitro ty dostaniesz wiadomosc na swoim serwerze)? \nJeśli nie kliknij enter: ", .02, newLine = False)
         url = input('') # Get the awnser
         webhook = url if url != "" else None # If the url is empty make it be None insted
 
