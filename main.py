@@ -15,7 +15,7 @@ class NitroGen: # Initialise the class
         print(""" 
                                                         """) # Print the title card
         time.sleep(2) # Wait a few seconds
-        self.slowType("Kod został trochę skopiowany ale huj", .02) # Print who developed the code
+        self.slowType("Zrobione przez Drillenissen i Benz, przetłumaczone i zmienione przez flexi.", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
         self.slowType("\nWpisz ile chcesz wygenerować kodów: ", .02, newLine = False) # Print the first question
 
